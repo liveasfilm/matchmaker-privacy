@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>수상한 결혼정보회사 개인정보처리방침 · Suspicious Matchmakers Privacy Policy</title>
-<meta name="description" content="수상한 결혼정보회사 개인정보처리방침 — 개발자는 개인정보를 직접 수집하지 않으며, 광고(Google AdMob)와 인앱결제에서 처리되는 정보를 안내합니다.">
+<meta name="description" content="수상한 결혼정보회사 개인정보처리방침 — 개발자는 개인정보를 직접 수집하지 않으며, 광고(Google AdMob)·이용 통계(Google Analytics for Firebase)·인앱결제에서 처리되는 정보를 안내합니다.">
 <style>
   :root{
     --bg:#FFF8EC;
@@ -60,7 +60,7 @@
 <header>
   <div class="seal">?</div>
   <h1>수상한 결혼정보회사 개인정보처리방침</h1>
-  <p class="sub">Suspicious Matchmakers Privacy Policy · 최종 수정일 / Last updated: 2026-09-13</p>
+  <p class="sub">Suspicious Matchmakers Privacy Policy · 최종 수정일 / Last updated: 2026-09-19</p>
   <nav role="tablist">
     <button role="tab" aria-selected="true" data-lang="ko">한국어</button>
     <button role="tab" aria-selected="false" data-lang="en">English</button>
@@ -78,7 +78,7 @@
 
   <div class="summary">
     <p><strong>개발자는 이용자의 개인정보를 직접 수집하지 않습니다.</strong> 계정 가입이 없고, 개발자가 운영하는 서버도 없으며, 게임 진행 데이터는 이용자의 기기 안에만 남습니다.</p>
-    <p style="margin:0">다만 <strong>광고(Google AdMob)와 인앱결제</strong>가 포함되어 있습니다. 광고를 표시하는 과정에서 Google이 광고 식별자와 기기 정보를 처리하고, 결제는 Apple 또는 Google이 처리합니다. 자세한 내용은 4절과 5절에 있습니다.</p>
+    <p style="margin:0">다만 <strong>광고(Google AdMob), 이용 통계(Google Analytics for Firebase), 인앱결제</strong>가 포함되어 있습니다. 게임을 개선하기 위해 이름 없는 플레이 통계(라운드 진행, 점수 등)가 Google Analytics로 전송됩니다. 광고를 표시하는 과정에서 Google이 광고 식별자와 기기 정보를 처리하고, 결제는 Apple 또는 Google이 처리합니다. 자세한 내용은 4절과 5절에 있습니다.</p>
   </div>
 
   <h2>1. 수집하는 개인정보</h2>
@@ -93,6 +93,8 @@
     <li><strong>광고 동의 상태</strong> — 유럽경제지역(EEA)·영국 등에서 표시되는 동의 양식의 선택 결과</li>
   </ul>
 
+  <p>게임 이용 통계(Google Analytics for Firebase)로 처리되는 정보는 5절에 따로 적었습니다.</p>
+
   <h2>2. 기기 내 저장 정보</h2>
   <p>다음 정보는 이용자 기기의 앱 전용 저장 영역에만 기록되며, 개발자에게 전송되지 않습니다.</p>
   <ul>
@@ -103,7 +105,7 @@
   <p>이 정보는 개발자를 포함한 제3자가 접근할 수 없으며, 이용자 본인을 식별하는 데 사용될 수 없습니다.</p>
 
   <h2>3. 네트워크 및 권한</h2>
-  <p>광고를 받아 오고 결제를 처리하기 위해 인터넷을 사용합니다. 게임 플레이 자체는 오프라인에서도 동작하며, 연결이 없으면 광고와 상점만 동작하지 않습니다.</p>
+  <p>광고를 받아 오고, 이용 통계를 보내고, 결제를 처리하기 위해 인터넷을 사용합니다. 게임 플레이 자체는 오프라인에서도 동작하며, 연결이 없으면 광고와 상점만 동작하지 않습니다.</p>
   <p>Android 빌드가 선언하는 권한은 인터넷·네트워크 상태, 광고 ID(<code>AD_ID</code>) 및 개인정보 보호 샌드박스 광고 API, Google Play 결제(<code>BILLING</code>) 등 광고·결제 SDK가 요구하는 것뿐이며, 카메라·위치·연락처·저장소 같은 위험 권한은 요청하지 않습니다.</p>
   <p>iOS 빌드는 카메라·위치·연락처·사진 권한을 요청하지 않으며, <strong>앱 추적 투명성(ATT) 동의도 요청하지 않습니다.</strong> 따라서 IDFA를 이용한 앱 간 추적은 이루어지지 않고, 광고 성과 측정은 Apple의 SKAdNetwork를 통한 익명 집계로만 이루어집니다.</p>
 
@@ -123,30 +125,39 @@
   </ul>
   <p>배너와 전면 광고를 영구히 없애려면 인앱 상품 「광고 제거 패키지」를 구매하면 됩니다.</p>
 
-  <h2>5. 인앱결제</h2>
+  <h2>5. 이용 통계 (Google Analytics for Firebase)</h2>
+  <p>게임의 난이도와 흐름을 개선하기 위해 Google Analytics for Firebase를 사용합니다. 이름·이메일 등 이용자를 알아볼 수 있는 정보는 보내지 않으며, 개발자는 Google Analytics 화면에서 집계된 통계만 봅니다.</p>
+  <ul>
+  <li><strong>앱 인스턴스 ID</strong> — 앱을 설치할 때 만들어지는 무작위 ID. 앱을 삭제하거나 데이터를 지우면 새로 만들어집니다. Android에서는 광고 ID(AAID)가 함께 처리될 수 있으며, iOS에서는 IDFA를 사용하지 않습니다.</li>
+  <li><strong>게임 이용 기록</strong> — 튜토리얼 진행, 라운드 시작·완료, 조사 횟수, 매칭 결과와 점수, 매니저 등급, 상점·도감 열기, 언어·소리 설정 변경, 광고 시청 결과, 광고 제거 패키지 보유 여부</li>
+  <li><strong>자동 수집 정보</strong> — 첫 실행, 세션 시작·이용 시간, 앱 업데이트, 인앱 구매 발생, 기기 모델·운영체제·언어, IP 주소에서 추정한 국가·도시 수준 위치</li>
+  </ul>
+  <p>통계는 릴리스 버전에서만 수집되며, 이벤트 데이터는 Google Analytics에 최대 14개월간 보관된 뒤 삭제됩니다. <a href="https://support.google.com/analytics/answer/6004245">Google Analytics 데이터 보호</a> · <a href="https://firebase.google.com/support/privacy">Firebase 개인정보 보호</a></p>
+  <p><strong>통계 수집을 제한하는 방법</strong> — Android는 설정 &gt; Google &gt; 광고에서 광고 ID를 삭제할 수 있고, 앱 데이터를 지우면 앱 인스턴스 ID가 초기화됩니다.</p>
+  <h2>6. 인앱결제</h2>
   <p>본 게임은 비소모성 상품 「광고 제거 패키지」(배너·전면 광고 제거 + 매 라운드 조사 횟수 추가)를 판매합니다.</p>
   <p>결제는 전적으로 Apple App Store 또는 Google Play가 처리하며, 개발자는 카드 번호·계좌 정보 등 이용자의 결제 수단에 접근할 수 없습니다. 구매 결과는 이용자의 기기와 스토어 계정에 기록되며, 개발자는 스토어가 제공하는 집계된 매출 통계만 열람합니다. 기기를 바꾸거나 앱을 재설치한 경우 같은 스토어 계정으로 「구매 복원」을 할 수 있습니다.</p>
   <p>환불은 각 스토어의 정책과 절차를 따릅니다. <a href="https://reportaproblem.apple.com">Apple 환불 요청</a> · <a href="https://support.google.com/googleplay/answer/2479637">Google Play 환불 요청</a></p>
 
-  <h2>6. 아동의 개인정보</h2>
+  <h2>7. 아동의 개인정보</h2>
   <p>본 게임은 만 13세 미만(EEA 기준 만 16세 미만) 아동을 대상으로 하지 않습니다. 개발자는 아동을 포함한 어떠한 이용자로부터도 개인정보를 직접 수집하지 않습니다.</p>
 
-  <h2>7. 데이터 보관 및 삭제</h2>
+  <h2>8. 데이터 보관 및 삭제</h2>
   <p>기기에 저장된 게임 데이터는 이용자가 직접 삭제할 때까지 보관됩니다.</p>
   <ul>
     <li><strong>Android</strong> — 설정 &gt; 애플리케이션 &gt; 수상한 결혼정보회사 &gt; 저장공간 &gt; 데이터 삭제, 또는 앱 삭제</li>
     <li><strong>iOS</strong> — 홈 화면에서 앱을 길게 눌러 삭제 (앱과 함께 데이터가 제거됩니다)</li>
   </ul>
-  <p>개발자 측에는 별도의 사본이 없습니다. 광고 목적으로 Google이 처리한 정보의 보관과 삭제는 Google의 방침을 따릅니다.</p>
+  <p>개발자 측에는 별도의 사본이 없습니다. 광고와 이용 통계 목적으로 Google이 처리한 정보의 보관과 삭제는 Google의 방침과 5절의 보관 기간을 따릅니다.</p>
 
-  <h2>8. 이용자의 권리</h2>
+  <h2>9. 이용자의 권리</h2>
   <p>개발자가 보유한 개인정보가 없으므로 개발자에게 열람·정정·삭제를 요청할 대상 정보가 없습니다. 광고 목적으로 처리된 정보에 대한 권리는 4절의 방법과 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 통해 행사하실 수 있습니다.</p>
 
-  <h2>9. 방침의 변경</h2>
+  <h2>10. 방침의 변경</h2>
   <p>데이터 처리 방식이 바뀌면 본 방침을 개정하고 최종 수정일을 갱신합니다.</p>
-  <p><strong>변경 이력</strong> — 2026-09-13: 최초 작성 (버전 1.0.0).</p>
+  <p><strong>변경 이력</strong> — 2026-09-13: 최초 작성 (버전 1.0.0). 2026-09-19: 이용 통계(Google Analytics for Firebase) 추가 (5절).</p>
 
-  <h2>10. 문의</h2>
+  <h2>11. 문의</h2>
   <p>개인정보처리방침에 관한 문의: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a></p>
 </section>
 
@@ -161,7 +172,7 @@
 
   <div class="summary">
     <p><strong>The developer does not collect any personal data directly.</strong> There is no account, no developer-operated server, and your gameplay data stays on your device.</p>
-    <p style="margin:0">The game does include <strong>advertising (Google AdMob) and in-app purchases</strong>. Serving ads involves Google processing an advertising identifier and device information, and payments are handled by Apple or Google. See sections 4 and 5.</p>
+    <p style="margin:0">The game does include <strong>advertising (Google AdMob), usage analytics (Google Analytics for Firebase) and in-app purchases</strong>. Anonymous gameplay statistics (round progress, scores and similar) are sent to Google Analytics to improve the game. Serving ads involves Google processing an advertising identifier and device information, and payments are handled by Apple or Google. See sections 4 and 5.</p>
   </div>
 
   <h2>1. Personal data we collect</h2>
@@ -176,6 +187,8 @@
     <li><strong>Ad consent status</strong> — your choice on the consent form shown in the EEA, the UK and similar regions</li>
   </ul>
 
+  <p>Usage analytics processed through Google Analytics for Firebase is described separately in section 5.</p>
+
   <h2>2. Data stored on your device</h2>
   <p>The following is written only to the app's private storage on your device and is never sent to the developer.</p>
   <ul>
@@ -186,7 +199,7 @@
   <p>No one, including the developer, can access this data, and it cannot be used to identify you.</p>
 
   <h2>3. Network and permissions</h2>
-  <p>The game uses the internet to load ads and process purchases. Gameplay itself works offline; without a connection only ads and the shop are unavailable.</p>
+  <p>The game uses the internet to load ads, send usage analytics and process purchases. Gameplay itself works offline; without a connection only ads and the shop are unavailable.</p>
   <p>The Android build declares only the permissions the ad and billing SDKs require — internet and network state, the advertising ID (<code>AD_ID</code>) and Privacy Sandbox ad APIs, and Google Play billing (<code>BILLING</code>). It requests no dangerous permissions such as camera, location, contacts or storage.</p>
   <p>The iOS build requests no camera, location, contacts or photo permissions, and <strong>does not ask for App Tracking Transparency (ATT) consent.</strong> No cross-app tracking with the IDFA takes place; ad measurement relies only on Apple's anonymous SKAdNetwork aggregation.</p>
 
@@ -206,30 +219,39 @@
   </ul>
   <p>To remove banner and interstitial ads permanently, purchase the "Ad-Free Pack" in-app product.</p>
 
-  <h2>5. In-app purchases</h2>
+  <h2>5. Usage analytics (Google Analytics for Firebase)</h2>
+  <p>The game uses Google Analytics for Firebase to improve difficulty and flow. No information that identifies you, such as a name or email address, is sent, and the developer sees only aggregated statistics in Google Analytics.</p>
+  <ul>
+  <li><strong>App instance ID</strong> — a random ID created when the app is installed. It is replaced if you delete the app or clear its data. On Android the advertising ID (AAID) may also be processed; on iOS the IDFA is not used.</li>
+  <li><strong>Gameplay events</strong> — tutorial progress, round start and completion, investigations used, match results and scores, manager rank, opening the shop or story collection, language and sound setting changes, rewarded ad results, and whether you own the Ad-Free Pack</li>
+  <li><strong>Automatically collected data</strong> — first launch, session start and engagement time, app updates, in-app purchases, device model, OS and language, and country/city-level location inferred from the IP address</li>
+  </ul>
+  <p>Analytics is collected only in release builds, and event data is kept in Google Analytics for up to 14 months before deletion. <a href="https://support.google.com/analytics/answer/6004245">Google Analytics data protection</a> · <a href="https://firebase.google.com/support/privacy">Firebase privacy</a></p>
+  <p><strong>Limiting analytics</strong> — on Android you can delete the advertising ID under Settings &gt; Google &gt; Ads; clearing the app's data resets the app instance ID.</p>
+  <h2>6. In-app purchases</h2>
   <p>The game sells one non-consumable product, the "Ad-Free Pack" (removes banner and interstitial ads and adds investigations every round).</p>
   <p>Payments are handled entirely by the Apple App Store or Google Play; the developer has no access to your card or bank details. Purchases are recorded on your device and store account, and the developer sees only aggregated sales statistics from the store. If you change devices or reinstall, use "Restore purchase" with the same store account.</p>
   <p>Refunds follow each store's policy. <a href="https://reportaproblem.apple.com">Apple refund request</a> · <a href="https://support.google.com/googleplay/answer/2479637">Google Play refund request</a></p>
 
-  <h2>6. Children's privacy</h2>
+  <h2>7. Children's privacy</h2>
   <p>The game is not directed at children under 13 (under 16 in the EEA). The developer does not directly collect personal data from any user, including children.</p>
 
-  <h2>7. Retention and deletion</h2>
+  <h2>8. Retention and deletion</h2>
   <p>Game data stored on your device is kept until you delete it.</p>
   <ul>
     <li><strong>Android</strong> — Settings &gt; Apps &gt; Suspicious Matchmakers &gt; Storage &gt; Clear data, or uninstall the app</li>
     <li><strong>iOS</strong> — long-press the app on the home screen and delete it (its data is removed with it)</li>
   </ul>
-  <p>The developer keeps no copy. Retention and deletion of data processed by Google for advertising follow Google's policies.</p>
+  <p>The developer keeps no copy. Retention and deletion of data processed by Google for advertising and analytics follow Google's policies and the retention period in section 5.</p>
 
-  <h2>8. Your rights</h2>
+  <h2>9. Your rights</h2>
   <p>Because the developer holds no personal data, there is nothing to access, correct or delete on the developer's side. Rights over data processed for advertising can be exercised through the methods in section 4 and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-  <h2>9. Changes</h2>
+  <h2>10. Changes</h2>
   <p>If data handling changes, this policy will be revised and the "Last updated" date updated.</p>
-  <p><strong>History</strong> — 2026-09-13: first version (app 1.0.0).</p>
+  <p><strong>History</strong> — 2026-09-13: first version (app 1.0.0). 2026-09-19: added usage analytics (Google Analytics for Firebase, section 5).</p>
 
-  <h2>10. Contact</h2>
+  <h2>11. Contact</h2>
   <p>Questions about this policy: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a></p>
 </section>
 

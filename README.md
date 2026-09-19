@@ -5,7 +5,7 @@
 
 - 공개 URL: https://liveasfilm.github.io/matchmaker-privacy/
 - 언어: 한국어 · English (한 페이지 내 탭 전환)
-- 최종 수정일: 2026-09-13 (앱 1.0.0 — AdMob 배너·전면·보상형 + 인앱결제)
+- 최종 수정일: 2026-09-19 (AdMob 배너·전면·보상형 + Google Analytics for Firebase + 인앱결제)
 
 ## 스토어 등록 시 사용
 
@@ -17,5 +17,5 @@
 ## 수정 방법
 
 `index.html` 한 파일만 수정하고 `main`에 push하면 GitHub Pages가 자동 재배포합니다.
-새로운 데이터 처리(분석 SDK, 로그인, 온라인 기능 등)를 추가하면 1·3·4·5절과
+새로운 데이터 처리(분석 SDK, 로그인, 온라인 기능 등)를 추가하면 1·3·4·5·6절과
 Play 데이터 보안 양식, App Store App Privacy를 함께 갱신해야 합니다.
